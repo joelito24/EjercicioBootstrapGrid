@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/*Header .titulo*/
+
+section.ejerciciothatzad .container-2-header  h1{
+    color: #292929;
+    font-family: Sofia;
+    font-size: 150px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21.95px;
+    text-align: center;
+    /* Text style for "Thatzad" */
+    letter-spacing: 10px;
+    line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section.ejerciciothatzad .container-2-header{
+    background-image: url(img/IMAGE2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+section.ejerciciothatzad .container-2-base img{
+    width: 100%;
+}
+
