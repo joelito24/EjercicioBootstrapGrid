@@ -1,51 +1,65 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/*Header .titulo*/
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 27274efce0bee010b2ef260779881cb08aa154e6
-section.ejerciciothatzad .container-2-header  h1{
+/* HEADER */
+h2{
     color: #292929;
     font-family: Sofia;
-    font-size: 150px;
+    font-size: 8vw!important;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 21.95px;
     text-align: center;
-    /* Text style for "Thatzad" */
-    letter-spacing: 10px;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
 }
-/*.ejerciciothatzad .container-2-header{
-    background-image: url(img/IMAGE2.png);
+section.ejerciciothatzadEric .imgCamara{
+    background-image: url(img/imgCamara.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
-}*/
-.container{
-    width: 100%;
-    height: 100%;
+    background-size: cover;
+    min-height: 360px;
 }
-section.ejerciciothatzad .container-2-base img{
-    width: 100%;
-}
-/*3-container .textos*/
 
-div .container-background{
-    background-image: url(img/BACKGROUND1.png);
+section.ejerciciothatzadEric .imgPantalones{
+    background-image: url(img/imgPantalones.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
+    min-height: 360px
 }
 
-h2.col-md-12.subtitle{
+section.ejerciciothatzadEric .imgMujer{
+    background-image: url(img/imgMujer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+section.ejerciciothatzadEric .imgSkate{
+    background-image: url(img/imgSkate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+
+/* CONTENT */
+
+section.ejerciciothatzadEric .bgbody{
+    background-color: whitesmoke;
+}
+
+section.ejerciciothatzadEric .bgcontenido{
+    background-image: url(img/bgContenido.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.ejerciciothatzadEric .subtitle{
     font-family: Lato;
     font-size: 36px;
     text-align: center;
@@ -55,12 +69,23 @@ h2.col-md-12.subtitle{
     font-style: normal;
 }
 
-.container-4-base img{
-    width: 384px;
-    height: 256px;
+section.ejerciciothatzadEric .imgCamaraMujer1{
+    background-image: url(img/imgCamaraMujer1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
 }
 
-.container-4-base p{
+section.ejerciciothatzadEric .imgCamaraMujer2{
+    background-image: url(img/imgCamaraMujer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+}
+
+section.ejerciciothatzadEric p{
     color: #292929;
     font-family: Lato;
     font-size: 18px;
@@ -71,7 +96,20 @@ h2.col-md-12.subtitle{
     text-align: left;
     font-style: normal;
 }
-/*Footer*/
-footer .footer img{
-    align-items:center ;
+
+/* FOOTER */
+
+footer .footerimg{
+    background-image: url(img/imgMoto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+    margin-top: 40px;
 }
+
+
+
+
+
+
